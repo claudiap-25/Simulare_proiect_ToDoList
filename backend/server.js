@@ -12,6 +12,3 @@ app.get('/api/status', (req, res) => {
   res.json({ message: "Backend-ul funcționează!" });
 });
 
-app.listen(PORT, () => {
-  console.log(`Serverul rulează pe http://localhost:${PORT}`);
-});
